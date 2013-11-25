@@ -1,1 +1,5 @@
-subdirs(src)
+include_directories(${GPP_SOURCE_DIR}/libgpp/include)
+SET(LIBRARY_OUTPUT_PATH ${GPP_BINARY_DIR}/libgpp/lib)
+add_library(libgpp src/libgpp.cpp)
+set_target_properties(libgpp PROPERTIES PREFIX "")
+install (FILES DESTINATION ${GPP_SOURCE_DIR}/lib)

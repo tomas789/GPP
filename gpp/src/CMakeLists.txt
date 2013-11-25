@@ -1,5 +1,0 @@
-include_directories(${GPP_SOURCE_DIR}/gpp/include)
-include_directories(${GPP_SOURCE_DIR}/libgpp/include)
-link_directories(${GPP_SOURCE_DIR}/libgpp/src)
-add_executable(gpp main.cpp)
-target_link_libraries(gpp libgpp)
