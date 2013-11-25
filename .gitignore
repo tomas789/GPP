@@ -4,3 +4,4 @@
 **/Makefile
 
 bin/*
+libgpp/lib/*
