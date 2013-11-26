@@ -4,6 +4,8 @@
 **/Makefile
 **/CTestTestfile.cmake
 
+**/*.swp
+
 third_party
 Testing
 
